@@ -1,0 +1,18 @@
+
+    <form class="loginForm" action="db/login" method="POST">
+        <% if(messages.error){ %>
+            <div class='errorAlert'>
+            <h3 class='errorh3'><%=messages.error%> </h3>
+            </div>
+             <% } %>
+    <div class="formDiv">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" placeholder="username..." autocomplete="off">
+    </div>
+    <div class="formDiv">
+        <label for="password">Password:</label>
+        <input type="text" name="password" id="password" placeholder="password..." autocomplete="off">
+    </div>
+ 
+    <button class="loginBtn">Login</button>
+    </form>

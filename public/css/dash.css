@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Montserrat', sans-serif;
+    position:relative;
+}
+
+
+.dashHeader{
+    background:rgb(0,0,255,.8);
+    color:white;
+    text-align:center;
+}
+
+
+.article-container{
+    width:100vw;
+    height:60vh;
+    border:1px solid black;
+    overflow:auto;
+}
+
+.article-div{
+    height:75px;
+    width:100%;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+
+.dashFooter{
+    background:rgb(0,0,255,.8);
+    text-align:center;
+    color:white;
+}
